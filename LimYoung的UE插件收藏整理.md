@@ -1,6 +1,6 @@
 # LimYoung 的 UE 插件收藏整理
 
-> 本文整理自 GitHub 用户 [Lim-Young (LimYoung)](https://github.com/Lim-Young) Star 的 Unreal Engine 相关插件和工具（共 249+ 个），按功能分类进行介绍。
+> 本文整理自 GitHub 用户 [Lim-Young (LimYoung)](https://github.com/Lim-Young) Star 的 Unreal Engine 相关插件和工具（共 290+ 个），按功能分类进行介绍。
 
 ---
 
@@ -42,11 +42,14 @@
   - [Tick 与定时器优化](#tick-与定时器优化)
   - [项目精简与分析](#项目精简与分析)
 - [💻 编程语言扩展](#-编程语言扩展)
+- [🎲 ECS 框架](#-ecs-框架)
 - [🗺️ 地形与环境](#️-地形与环境)
 - [🔫 战斗与射击](#-战斗与射击)
 - [🎵 音频](#-音频)
 - [🏗️ 关卡设计](#️-关卡设计)
 - [📦 数据管理与工具库](#-数据管理与工具库)
+- [💾 存档系统](#-存档系统)
+- [🔄 对象池](#-对象池)
 - [🌏 本地化](#-本地化)
 - [🎬 媒体](#-媒体)
 - [📐 几何与 Mesh](#-几何与-mesh)
@@ -56,6 +59,7 @@
 - [📚 文档与学习资源](#-文档与学习资源)
 - [🎯 游戏框架与模板](#-游戏框架与模板)
 - [🎮 输入系统](#-输入系统)
+- [📷 相机系统](#-相机系统)
 
 ---
 
@@ -95,6 +99,8 @@
 |------|-------|------|
 | [sinbad/SUSS](https://github.com/sinbad/SUSS) | ⭐68 | **Steve's UtilityAI SubSystem** — UE5 的效用 AI 子系统，支持通过效用评分来驱动 AI 行为决策。 |
 | [hollsteinm/ReasonablePlanningAI](https://github.com/hollsteinm/ReasonablePlanningAI) | ⭐163 | **ReasonablePlanningAI** — 设计师驱动的 AI 模块扩展插件，支持数据驱动的效用 AI 和目标导向行动规划（GOAP）。 |
+| [Lim-Young/UnrealAITokenSystem](https://github.com/Lim-Young/UnrealAITokenSystem) | ⭐21 | **UnrealAITokenSystem** — 受 DOOM 启发的 AI Token 系统，用于管理多敌人战斗体验中的攻击资源分配。 |
+| [Lim-Young/UnrealBehaviorTreeExtension](https://github.com/Lim-Young/UnrealBehaviorTreeExtension) | ⭐1 | **UnrealBehaviorTreeExtension** — UE 行为树扩展，新增状态机选择器（State Machine Selector）和效用选择器（Utility Selector）。 |
 
 ### 感知与目标系统
 
@@ -117,6 +123,8 @@
 | [gerlogu/CustomInGameConsole](https://github.com/gerlogu/CustomInGameConsole) | ⭐39 | **CustomInGameConsole** — 可在 Release 版本中轻松创建自定义控制台命令的工具。 |
 | [gamedevware/charon](https://github.com/gamedevware/charon) | ⭐82 | **Charon** — 强大的游戏数据管理工具，提供结构化的游戏数据设计和自动源码生成，支持 UE 集成。 |
 | [GGgRain/Unreal-Joint](https://github.com/GGgRain/Unreal-Joint) | ⭐84 | **Unreal-Joint** — 通用模块化播放框架（Epic MegaGrants 获奖项目），适用于多种回放/过场场景。 |
+| [Lim-Young/GameFeedbackCrafter](https://github.com/Lim-Young/GameFeedbackCrafter) | ⭐3 | **GameFeedbackCrafter** — UE 模块化游戏反馈创建器，用于组合和管理各类游戏反馈效果。 |
+| [oivio/Lyra-Geometry-Tools-Plugin](https://github.com/oivio/Lyra-Geometry-Tools-Plugin) | ⭐4 | **Lyra-Geometry-Tools-Plugin** — 从 Lyra 项目中提取的几何工具插件。 |
 
 ---
 
@@ -131,12 +139,18 @@
 | [Vaei/PredictedMovement](https://github.com/Vaei/PredictedMovement) | ⭐220 | **PredictedMovement** — 扩展角色移动组件（CMC），增加对预测能力的支持。 |
 | [Reddy-dev/SMN2](https://github.com/Reddy-dev/SMN2) | ⭐113 | **SMN2** — 在 UE5 蓝图中轻松实现角色移动网络预测。 |
 | [lootera89/LedgeDetection](https://github.com/lootera89/LedgeDetection) | ⭐17 | **LedgeDetection** — 简单、高效的边缘检测系统，自动检测前方边缘并阻止玩家坠落，支持 UE 5.3+。 |
+| [Sixze/ALS-Refactored](https://github.com/Sixze/ALS-Refactored) | ⭐1340 | **ALS-Refactored** — 完全重写并改进的 C++ 版高级运动系统 V4（Advanced Locomotion System）。 |
+| [BanMing/LyraALS](https://github.com/BanMing/LyraALS) | ⭐7 | **LyraALS** — 基于 Lyra 框架的高级运动系统（ALS）实现。 |
+| [HoussineMehnik/TraversalNavigationDataPlugin](https://github.com/HoussineMehnik/TraversalNavigationDataPlugin) | ⭐48 | **TraversalNavigationDataPlugin** — UE5 穿越导航数据插件，用于生成、存储和查询穿越路段数据。 |
 
 ### 动画与骨骼
 
 | 插件 | Stars | 简介 |
 |------|-------|------|
 | [Vaei/TurnInPlace](https://github.com/Vaei/TurnInPlace) | ⭐236 | **TurnInPlace** — 基于 Actor 的原地转身解决方案，替代基于 Mesh 的方案，避免了大量已知问题。 |
+| [pafuhana1213/UE5_NewAnimSystemsSample](https://github.com/pafuhana1213/UE5_NewAnimSystemsSample) | ⭐60 | **UE5_NewAnimSystemsSample** — UE5 动画新特性示例项目，主要展示运动系统（Locomotion）相关功能。 |
+| [Lim-Young/AnimEventSystem](https://github.com/Lim-Young/AnimEventSystem) | ⭐5 | **AnimEventSystem** — 轻量级动画事件系统，解耦动画与蓝图逻辑层之间的通信。 |
+| [Lim-Young/MorphsPlayer](https://github.com/Lim-Young/MorphsPlayer) | ⭐6 | **MorphsPlayer** — 开源插件，新增 Notify State 用于在动画中播放 MorphTarget 变形动画，支持 UE 5.4。 |
 
 ### 受击与肢解
 
@@ -144,6 +158,7 @@
 |------|-------|------|
 | [Vaei/ProcHitReact](https://github.com/Vaei/ProcHitReact) | ⭐135 | **ProcHitReact** — 程序化物理驱动的骨骼网格体受击反应系统，功能强大，满足各种受击效果需求。 |
 | [Thyke/Dismemberment](https://github.com/Thyke/Dismemberment) | ⭐11 | **Dismemberment** — 高级肢解系统，支持动态肢体分离、武器掉落和可自定义的身体部位数据。 |
+| [Lim-Young/SkeletalMeshDestruction](https://github.com/Lim-Young/SkeletalMeshDestruction) | ⭐18 | **SkeletalMeshDestruction** — 骨骼网格体退化与肢解系统，支持动态的模型损坏和分离效果。 |
 
 ---
 
@@ -155,6 +170,8 @@
 | [darbycostello/Nav3D](https://github.com/darbycostello/Nav3D) | ⭐214 | **Nav3D** — 基于稀疏体素八叉树的 3D 寻路系统，针对 UE5 全面优化，支持战术推理。 |
 | [midgen/AeonixNavigation](https://github.com/midgen/AeonixNavigation) | ⭐36 | **AeonixNavigation** — 3D SVO（稀疏体素八叉树）导航、寻路和移动插件。 |
 | [cem-akkaya/MGDynamicNavigation](https://github.com/cem-akkaya/MGDynamicNavigation) | ⭐13 | **MGDynamicNavigation** — 轻量级的独立本地动态导航系统。 |
+| [TheEmidee/UESVONavigation](https://github.com/TheEmidee/UESVONavigation) | ⭐50 | **UESVONavigation** — 基于稀疏体素八叉树（SVO）的 UE4 3D 空间导航插件。 |
+| [GunfireGames/Gunfire3DNavigation](https://github.com/GunfireGames/Gunfire3DNavigation) | ⭐18 | **Gunfire3DNavigation** — 完整的 UE5 3D 导航系统，支持全方位三维寻路。 |
 
 ---
 
@@ -170,6 +187,7 @@
 | [cem-akkaya/NetworkedPhysics](https://github.com/cem-akkaya/NetworkedPhysics) | ⭐14 | **NetworkedPhysics** — UE 5.7 网络化物理 Pawn 教程项目。 |
 | [Cutter-H/ReplicatedDrawingWidgetPlugin](https://github.com/Cutter-H/ReplicatedDrawingWidgetPlugin) | ⭐9 | **ReplicatedDrawingWidgetPlugin** — 多人游戏中可复制的绘图控件插件，支持拖拽绘制。 |
 | [Vaei/PushPawn](https://github.com/Vaei/PushPawn) | ⭐83 | **PushPawn** — 网络预测的有机软碰撞系统，在角色靠近其他 Pawn 时提供良好的游戏手感且不会造成同步问题。 |
+| [marcohenning/ue5-server-side-rewind](https://github.com/marcohenning/ue5-server-side-rewind) | ⭐31 | **ue5-server-side-rewind** — UE5 中使用服务端回溯（Server-Side Rewind）实现延迟补偿的方案。 |
 
 ### 在线服务
 
@@ -197,6 +215,9 @@
 | [hollsteinm/UE4-Map-And-Mini-Map](https://github.com/hollsteinm/UE4-Map-And-Mini-Map) | ⭐23 | **UE4-Map-And-Mini-Map** — 支持基于体积的小地图渲染和可缩放平移的地图实现，无需烘焙资产。 |
 | [oivio/LyraUI](https://github.com/oivio/LyraUI) | ⭐14 | **LyraUI** — 将 Lyra 的 UI 主菜单抽取为独立的可复用插件。 |
 | [Pavreally/WindowManager](https://github.com/Pavreally/WindowManager) | ⭐12 | **WindowManager** — UE5 函数库，用于快速 UI 原型制作和简化界面管理。 |
+| [getnamo/BLUI-Unreal](https://github.com/getnamo/BLUI-Unreal) | ⭐410 | **BLUI-Unreal** — 基于 CEF（Chromium Embedded Framework）的 HTML UI 插件，在 UE 中嵌入网页界面。 |
+| [engelmanna/UMG3DTransform](https://github.com/engelmanna/UMG3DTransform) | ⭐56 | **UMG3DTransform** — 使用蓝图实现 UMG 图片控件 3D 旋转效果的示例。 |
+| [rdelian/ElementUI-UMG-Kit](https://github.com/rdelian/ElementUI-UMG-Kit) | ⭐22 | **ElementUI-UMG-Kit** — 模块化 UMG 元素集合，扩展 Common UI 样式体系。 |
 
 ---
 
@@ -213,6 +234,9 @@
 | [arnaud-jamin/Cog](https://github.com/arnaud-jamin/Cog) | ⭐551 | **Cog** — 基于 Dear ImGui 构建的 UE 调试工具集，提供丰富的运行时调试能力。 |
 | [hzFishy/EditorLevelSelector](https://github.com/hzFishy/EditorLevelSelector) | ⭐3 | **EditorLevelSelector** — 简单的编辑器关卡选择器插件。 |
 | [gerlogu/CustomInGameConsole](https://github.com/gerlogu/CustomInGameConsole) | ⭐39 | **CustomInGameConsole** — 允许在 Release 版本中创建和使用自定义控制台命令。 |
+| [MikeShatterwell/InputFlowDebugger](https://github.com/MikeShatterwell/InputFlowDebugger) | ⭐32 | **InputFlowDebugger** — UE UI 与输入调试工具套件，方便排查输入流程问题。 |
+| [HoussineMehnik/UE4-SplineSnappingToolPlugin](https://github.com/HoussineMehnik/UE4-SplineSnappingToolPlugin) | ⭐39 | **UE4-SplineSnappingToolPlugin** — 编辑器模式工具，可将关卡中的 Actor 吸附到指定的样条线组件上。 |
+| [Lim-Young/ActorLocker](https://github.com/Lim-Young/ActorLocker) | ⭐0 | **ActorLocker** — 在编辑器视口中锁定 Actor 的 UE 插件，防止误操作。 |
 
 ### 属性与元数据编辑
 
@@ -262,6 +286,8 @@
 |------|-------|------|
 | [eanticev/niagara-destruction-driver](https://github.com/eanticev/niagara-destruction-driver) | ⭐200 | **niagara-destruction-driver** — 将 CHAOS 可破坏物转换为高性能 GPU 模拟的可破坏静态网格体，由 Niagara 粒子驱动。 |
 | [DevDingDangDong/MaaassParticle](https://github.com/DevDingDangDong/MaaassParticle) | ⭐33 | **MaaassParticle** — 通过 Niagara 渲染大规模人群，并可通过状态管理控制群体行为。 |
+| [ufna/VaFogOfWar](https://github.com/ufna/VaFogOfWar) | ⭐220 | **VaFogOfWar** — 清晰简洁的 UE4 战争迷雾解决方案。 |
+| [LingFengSBH/InteractiveWorld](https://github.com/LingFengSBH/InteractiveWorld) | ⭐172 | **InteractiveWorld** — UE 商城插件 "Interactive World" 的源码，用于创建交互式环境效果。 |
 
 ### 体积云与光照
 
@@ -281,6 +307,7 @@
 | 插件 | Stars | 简介 |
 |------|-------|------|
 | [Erlandys/ImpostorBaker](https://github.com/Erlandys/ImpostorBaker) | ⭐35 | **ImpostorBaker** — 为静态网格体生成 Impostor（替身贴片）的 UE5 插件，用于远距离 LOD 优化。 |
+| [jiayaozhang/NaniteTree](https://github.com/jiayaozhang/NaniteTree) | ⭐24 | **NaniteTree** — 将植被模型转换为 UE5.x Nanite 树的工具。 |
 
 ---
 
@@ -315,6 +342,7 @@
 | [vicvasper/Optilogger_UE5.x](https://github.com/vicvasper/Optilogger_UE5.x) | ⭐6 | **Optilogger** — 深度分析关卡资源（网格体、贴图、材质、动画、音频、光照、后处理）的优化分析插件。 |
 | [ArcstoneGames/DependencyAnalyser](https://github.com/ArcstoneGames/DependencyAnalyser) | ⭐3 | **DependencyAnalyser** — 测量和分析资产依赖大小瓶颈的 UE5 插件。 |
 | [Imloopdev/Perfectly-Optimized](https://github.com/Imloopdev/Perfectly-Optimized) | ⭐— | **Perfectly-Optimized** — 专为低端硬件优化的 UE5 精简启动模板。 |
+| [nustxujun/MemViewer](https://github.com/nustxujun/MemViewer) | ⭐3 | **MemViewer** — UE 内存追踪与可视化工具，用于分析内存使用情况。 |
 
 ---
 
@@ -326,6 +354,15 @@
 | [jmgomez/NimForUE](https://github.com/jmgomez/NimForUE) | ⭐537 | **NimForUE** — UE5 的 Nim 语言插件，提供原生性能和热重载，介于 C++ 和蓝图之间的完整互操作。 |
 | [Sebight/seraph](https://github.com/Sebight/seraph) | ⭐11 | **Seraph** — AngelScript 的 C++ 封装库，简化类型注册、函数绑定和脚本与原生代码的互操作。 |
 | [ySion/DaxSystem](https://github.com/ySion/DaxSystem) | ⭐5 | **DaxSystem** — UE5 高性能复合数据系统，完整支持 AngelScript。 |
+| [Lim-Young/FlowGraph](https://github.com/Lim-Young/FlowGraph) | ⭐3 | **FlowGraph** — 设计无关的节点式系统，用于在 UE 中以可视化方式编排游戏流程。 |
+
+---
+
+## 🎲 ECS 框架
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [unrays/Exotic](https://github.com/unrays/Exotic) | ⭐7 | **Exotic** — 实验性 ECS 引擎，专为元编程和新一代组件模式设计。 |
 
 ---
 
@@ -345,6 +382,9 @@
 |------|-------|------|
 | [YyepPo/Data_Driven_Projectile](https://github.com/YyepPo/Data_Driven_Projectile) | ⭐25 | **Data_Driven_Projectile** — 轻量级高性能弹道系统，使用数据驱动方式和中央子弹管理器，支持大量子弹且 CPU 开销极低。 |
 | [prathameshkhanzode/Advanced-Spray-System-UE5-Cpp](https://github.com/prathameshkhanzode/Advanced-Spray-System-UE5-Cpp) | ⭐8 | **Advanced-Spray-System** — UE5 喷涂系统组件，支持实时表面检测、法线对齐和多人游戏同步。 |
+| [Voidware-Prohibited/Ricochet](https://github.com/Voidware-Prohibited/Ricochet) | ⭐4 | **Ricochet** — 基于 GAS 的可复制弹道与投射物系统，适用于大型开放世界游戏。 |
+| [michael-royalty/ProjectilesOverview](https://github.com/michael-royalty/ProjectilesOverview) | ⭐13 | **ProjectilesOverview** — UE 投射物追踪方法概览，展示多种弹道跟踪实现方式。 |
+| [gregorhcs/GASCancelAbilitiesFromEffect](https://github.com/gregorhcs/GASCancelAbilitiesFromEffect) | ⭐17 | **GASCancelAbilitiesFromEffect** — GAS GameplayEffect 组件，可从效果中取消指定的 Ability。 |
 
 ---
 
@@ -354,6 +394,10 @@
 |------|-------|------|
 | [Lokillouu/MetaSounds-Notify](https://github.com/Lokillouu/MetaSounds-Notify) | ⭐12 | **MetaSounds-Notify** — 让 MetaSound 系统与外部世界通信！可从 MetaSound 内部向对象、Actor 和蓝图发送通知。 |
 | [LeoO5/O5SpectrumWwisePlugin](https://github.com/LeoO5/O5SpectrumWwisePlugin) | ⭐4 | **O5SpectrumWwisePlugin** — 轻量级 Wwise 插件，嵌入实时频谱分析器，并通过公共 C++ API 将 FFT/幅度数据流式传输到游戏运行时。 |
+| [ak-brodrigue/waapi-python-tools](https://github.com/ak-brodrigue/waapi-python-tools) | ⭐50 | **waapi-python-tools** — 基于 WAAPI 和 Python 的 Wwise 工具集。 |
+| [GameaudioGuru/simpleWind](https://github.com/GameaudioGuru/simpleWind) | ⭐9 | **simpleWind** — 基于白噪声的程序化风声插件，适用于 Wwise。 |
+| [adamsmithkipnis/WwiseDeepRenamer](https://github.com/adamsmithkipnis/WwiseDeepRenamer) | ⭐4 | **WwiseDeepRenamer** — Wwise 深度重命名工具，批量重命名 Wwise 对象。 |
+| [audiojdub/MSEQ](https://github.com/audiojdub/MSEQ) | ⭐3 | **MSEQ** — Wwise 中/侧（Mid/Side）均衡器插件。 |
 
 ---
 
@@ -379,11 +423,30 @@
 
 ---
 
+## 💾 存档系统
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [GunfireGames/GunfireSaveSystem](https://github.com/GunfireGames/GunfireSaveSystem) | ⭐13 | **GunfireSaveSystem** — 功能更强大的 UE5 存档系统，适合复杂项目的存档需求。 |
+| [thelightxen/IgorSaves](https://github.com/thelightxen/IgorSaves) | ⭐5 | **IgorSaves** — UE 存档系统，灵感来源于《你好邻居》的存档机制。 |
+| [sinbad/SPUD](https://github.com/sinbad/SPUD) | ⭐— | **SPUD** — Steve's Persistent Unreal Data，UE 持久化数据存储库。 |
+
+---
+
+## 🔄 对象池
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [Lim-Young/PoolManager](https://github.com/Lim-Young/PoolManager) | ⭐5 | **PoolManager** — 开源对象池管理插件，帮助在 UE 5.5 中复用对象以提升性能。 |
+
+---
+
 ## 🌏 本地化
 
 | 插件 | Stars | 简介 |
 |------|-------|------|
 | [zompi2/UE4EasyLocalizationTool](https://github.com/zompi2/UE4EasyLocalizationTool) | ⭐120 | **UE4EasyLocalizationTool** — 通过导入 CSV 文件来简化 UE 本地化流程的插件。 |
+| [BraceYourselfGames/UE-BYGLocalization](https://github.com/BraceYourselfGames/UE-BYGLocalization) | ⭐88 | **UE-BYGLocalization** — 简洁的 CSV 本地化系统，适用于 UE 项目的多语言支持。 |
 
 ---
 
@@ -394,6 +457,7 @@
 | [surgeshi/FFMPEGMediaUE5](https://github.com/surgeshi/FFMPEGMediaUE5) | ⭐26 | **FFMPEGMediaUE5** — 基于 FFMPEG 的 UE5 媒体插件，支持更多平台（Linux/Android/Mac/Windows）和更多视频格式（含 Alpha 视频）。 |
 | [jwatsn/ThumbnailPlugin](https://github.com/jwatsn/ThumbnailPlugin) | ⭐5 | **ThumbnailPlugin** — 在运行时为模型生成缩略图的简单插件。 |
 | [earthstorm2015/ueblueprint](https://github.com/earthstorm2015/ueblueprint) | ⭐6 | **ueblueprint** — UE 蓝图可视化 Web 库，可在网页中展示蓝图节点图。 |
+| [Lim-Young/UE_CaptureSubsystem](https://github.com/Lim-Young/UE_CaptureSubsystem) | ⭐2 | **UE_CaptureSubsystem** — UE 运行时视频和截图捕获系统。 |
 
 ---
 
@@ -414,6 +478,7 @@
 | [Naotsun19B/PluginBuilder](https://github.com/Naotsun19B/PluginBuilder) | ⭐35 | **PluginBuilder** — 支持使用多引擎版本构建插件并压缩为 ZIP 格式的编辑器插件，方便商城提交。 |
 | [jobrogi/-UE-Plugin-Multi-Version-Builder](https://github.com/jobrogi/-UE-Plugin-Multi-Version-Builder) | ⭐2 | **UE-Plugin-Multi-Version-Builder** — 自定义 PowerShell 脚本，用于构建多个版本的 UE 插件，适合 Fab 商城分发。 |
 | [pafuhana1213/UnrealEngine-UpdateTracker](https://github.com/pafuhana1213/UnrealEngine-UpdateTracker) | ⭐44 | **UnrealEngine-UpdateTracker** — 自动监控 UE 私有 GitHub 仓库更新，使用 AI 总结重要变更的服务。 |
+| [mickexd/UnrealEnginePluginMigrationTool](https://github.com/mickexd/UnrealEnginePluginMigrationTool) | ⭐63 | **UnrealEnginePluginMigrationTool** — Python GUI 工具，使用 UAT 在不同 UE 版本间迁移插件。 |
 
 ---
 
@@ -435,6 +500,7 @@
 | [Jim-Kroovy/Mr-Mannequins-Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) | ⭐541 | **Mr-Mannequins-Tools** — Blender 工具集，支持 UE 角色的骨骼绑定、Blender 导入和 Unreal 导出。 |
 | [skarndev/umodel_tools](https://github.com/skarndev/umodel_tools) | ⭐135 | **umodel_tools** — Blender 插件，支持导入 UE 游戏的静态网格体和关卡地图。 |
 | [mayloglog/FakeBones](https://github.com/mayloglog/FakeBones) | ⭐25 | **FakeBones** — 增强从 Maya、Unreal 等软件导入骨架可视化的 Blender 插件。 |
+| [xavier150/Blender-For-UnrealEngine-Addons](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) | ⭐2474 | **Blender-For-UnrealEngine-Addons** — 从 Blender 导出资产到 UE 的 Blender 插件，支持完整的导出管线。 |
 
 ---
 
@@ -467,4 +533,13 @@
 
 ---
 
-> 📌 **注：** 本文整理的是用户 [Lim-Young](https://github.com/Lim-Young) 在 GitHub 上 Star 的 UE 相关仓库。Stars 数量截至 2026 年 3 月，部分仓库 Stars 数量标记为 "—" 表示该仓库 Star 数未获取到或为大型仓库（超过 1000 Stars）。该用户总共 Star 了 532 个仓库，其中 249 个被归类到 "Unreal Plugin" 列表中，由于 GitHub 页面渲染限制，本文可能未覆盖全部仓库，但已尽力包含绝大多数 UE 插件。
+## 📷 相机系统
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [gerlogu/FixedCameraSystem](https://github.com/gerlogu/FixedCameraSystem) | ⭐31 | **FixedCameraSystem** — 用于在 UE 中创建电影化场景的 C++ 固定相机工具集。 |
+| [CasperTheCat/UnrealExtendedCamera](https://github.com/CasperTheCat/UnrealExtendedCamera) | ⭐5 | **UnrealExtendedCamera** — UE 扩展相机系统，提供更多相机控制功能。 |
+
+---
+
+> 📌 **注：** 本文整理的是用户 [Lim-Young](https://github.com/Lim-Young) 在 GitHub 上 Star 的 UE 相关仓库。Stars 数量截至 2026 年 3 月，部分仓库 Stars 数量标记为 "—" 表示该仓库 Star 数未获取到或为大型仓库（超过 1000 Stars）。该用户总共 Star 了 532 个仓库，其中 292 个被归类到 "Unreal Plugin" 列表中，由于 GitHub 页面渲染限制，本文可能未覆盖全部仓库，但已尽力包含绝大多数 UE 插件。
