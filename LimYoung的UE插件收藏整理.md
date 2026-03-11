@@ -505,13 +505,7 @@
 
 ## 🔗 DCC 桥接工具
 
-| 插件 | Stars | 简介 |
-|------|-------|------|
-| [nitecon/AssetsBridge](https://github.com/nitecon/AssetsBridge) | ⭐6 | **AssetsBridge** — 提供 UE 和 Blender 之间的资产桥接能力。 |
-| [Jim-Kroovy/Mr-Mannequins-Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) | ⭐541 | **Mr-Mannequins-Tools** — Blender 工具集，支持 UE 角色的骨骼绑定、Blender 导入和 Unreal 导出。 |
-| [skarndev/umodel_tools](https://github.com/skarndev/umodel_tools) | ⭐135 | **umodel_tools** — Blender 插件，支持导入 UE 游戏的静态网格体和关卡地图。 |
-| [mayloglog/FakeBones](https://github.com/mayloglog/FakeBones) | ⭐25 | **FakeBones** — 增强从 Maya、Unreal 等软件导入骨架可视化的 Blender 插件。 |
-| [xavier150/Blender-For-UnrealEngine-Addons](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) | ⭐2474 | **Blender-For-UnrealEngine-Addons** — 从 Blender 导出资产到 UE 的 Blender 插件，支持完整的导出管线。 |
+> 注：Blender 相关的 DCC 桥接工具已整合到 [🎨 Blender 插件](#-blender-插件-blender-addons) 章节中。
 
 ---
 
