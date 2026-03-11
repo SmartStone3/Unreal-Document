@@ -1,6 +1,6 @@
-# LimYoung 的 UE 插件收藏整理
+# LimYoung 的 GitHub 收藏整理
 
-> 本文整理自 GitHub 用户 [Lim-Young (LimYoung)](https://github.com/Lim-Young) Star 的 Unreal Engine 相关插件和工具（共 290+ 个），按功能分类进行介绍。
+> 本文整理自 GitHub 用户 [Lim-Young (LimYoung)](https://github.com/Lim-Young) 的全部 13 个 Star Lists（共 532 个仓库），涵盖 Unreal Plugin、Unreal Basic Plugins、Unreal Doc、AI、Pipeline、Blender、Doc、Net、Assets、Python、Unity、Godot、Wwise 等分类，按功能领域进行介绍。
 
 ---
 
@@ -60,6 +60,17 @@
 - [🎯 游戏框架与模板](#-游戏框架与模板)
 - [🎮 输入系统](#-输入系统)
 - [📷 相机系统](#-相机系统)
+- [🧩 C++ 协程 (Coroutines)](#-c-协程-coroutines)
+- [🤖 AI 与大模型工具 (AI & LLM Tools)](#-ai-与大模型工具-ai--llm-tools)
+- [🎨 Blender 插件 (Blender Addons)](#-blender-插件-blender-addons)
+- [🌐 网络框架与库 (Networking Libraries)](#-网络框架与库-networking-libraries)
+- [🎮 Unity 相关 (Unity Related)](#-unity-相关-unity-related)
+- [🛠️ 通用管线与协作工具 (General Pipeline & Collaboration)](#️-通用管线与协作工具-general-pipeline--collaboration)
+- [🐍 Python 工具库 (Python Libraries)](#-python-工具库-python-libraries)
+- [🎯 游戏资源 (Game Assets)](#-游戏资源-game-assets)
+- [📚 学习文档与教程 (Learning Docs & Tutorials)](#-学习文档与教程-learning-docs--tutorials)
+- [⚙️ 游戏引擎与底层库 (Game Engines & Core Libraries)](#️-游戏引擎与底层库-game-engines--core-libraries)
+- [🔧 通用开发工具 (General Development Tools)](#-通用开发工具-general-development-tools)
 
 ---
 
@@ -542,4 +553,132 @@
 
 ---
 
-> 📌 **注：** 本文整理的是用户 [Lim-Young](https://github.com/Lim-Young) 在 GitHub 上 Star 的 UE 相关仓库。Stars 数量截至 2026 年 3 月，部分仓库 Stars 数量标记为 "—" 表示该仓库 Star 数未获取到或为大型仓库（超过 1000 Stars）。该用户总共 Star 了 532 个仓库，其中 292 个被归类到 "Unreal Plugin" 列表中，由于 GitHub 页面渲染限制，本文可能未覆盖全部仓库，但已尽力包含绝大多数 UE 插件。
+## 🧩 C++ 协程 (Coroutines)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [landelare/ue5coro](https://github.com/landelare/ue5coro) | ⭐1017 | **ue5coro** — 深度集成的 C++20 协程插件，为 Unreal Engine 5 提供原生协程支持，简化异步编程。 |
+
+---
+
+## 🤖 AI 与大模型工具 (AI & LLM Tools)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | ⭐— | **Langflow** — 强大的 AI 代理和工作流构建与部署工具，支持可视化编排。 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | ⭐— | **ComfyUI** — 最强大的模块化扩散模型 GUI，提供图形/节点界面进行 AI 图像生成。 |
+| [sakalond/StableGen](https://github.com/sakalond/StableGen) | ⭐684 | **StableGen** — 在 Blender 中使用生成式 AI 变革 3D 贴图工作流。 |
+| [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | ⭐— | **claude-code-workflows** — Claude Code 最佳工作流集合，从发布日起持续更新。 |
+| [KsanaDock/Microverse](https://github.com/KsanaDock/Microverse) | ⭐— | **Microverse** — 基于 Godot 4 构建的上帝模拟沙盒游戏，多智能体 AI 社会模拟系统。 |
+| [zai-org/GLM-TTS](https://github.com/zai-org/GLM-TTS) | ⭐944 | **GLM-TTS** — 可控且情感表达丰富的零样本语音合成，支持多奖励强化学习。 |
+| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | ⭐— | **MiroFish** — 简单通用的群体智能引擎，可用于多场景预测。 |
+| [MVPandey/DTS](https://github.com/MVPandey/DTS) | ⭐35 | **DTS** — 受 MCTS 启发的并行束搜索，用于对话优化。 |
+| [EvoMap/evolver](https://github.com/EvoMap/evolver) | ⭐1446 | **evolver** — 基于 GEP 的 AI 代理自进化引擎。 |
+| [shuyu-labs/WebCode](https://github.com/shuyu-labs/WebCode) | ⭐375 | **WebCode** — 基于浏览器的 AI 编程平台，支持 Claude Code 等 CLI 助手。 |
+| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | ⭐— | **AionUi** — 免费、本地、开源的 24/7 AI CLI 工具协作应用。 |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | ⭐— | **shannon** — 全自主 AI 渗透测试工具，适用于 Web 应用和 API 安全测试。 |
+| [moeru-ai/airi](https://github.com/moeru-ai/airi) | ⭐— | **airi** — 自托管 AI 伴侣，支持实时语音聊天。 |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | ⭐— | **PDFMathTranslate** — PDF 科学论文翻译工具，保留原始排版格式。 |
+| [continuedev/continue](https://github.com/continuedev/continue) | ⭐— | **continue** — 源码控制的 AI 检查工具，可在 CI 中强制执行。 |
+
+---
+
+## 🎨 Blender 插件 (Blender Addons)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [xavier150/Blender-For-UnrealEngine-Addons](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) | ⭐2474 | **Blender-For-UnrealEngine-Addons** — 从 Blender 导出资产到 UE 的 Blender 插件，支持完整的导出管线。 |
+| [Jim-Kroovy/Mr-Mannequins-Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) | ⭐541 | **Mr-Mannequins-Tools** — Blender 工具集，支持 UE 角色的骨骼绑定、Blender 导入和 Unreal 导出。 |
+| [skarndev/umodel_tools](https://github.com/skarndev/umodel_tools) | ⭐135 | **umodel_tools** — Blender 插件，支持导入 UE 游戏的静态网格体和关卡地图。 |
+| [nitecon/AssetsBridge](https://github.com/nitecon/AssetsBridge) | ⭐6 | **AssetsBridge** — 提供 UE 和 Blender 之间的资产桥接能力。 |
+| [mayloglog/FakeBones](https://github.com/mayloglog/FakeBones) | ⭐25 | **FakeBones** — 增强从 Maya、Unreal 等软件导入骨架可视化的 Blender 插件。 |
+| [mio3io/mio3_uv](https://github.com/mio3io/mio3_uv) | ⭐503 | **mio3_uv** — Blender UV 编辑辅助插件，支持 Blender 4/5。 |
+| [ucupumar/ucupaint](https://github.com/ucupumar/ucupaint) | ⭐2091 | **ucupaint** — Blender 纹理图层管理插件，支持 Eevee 和 Cycles 渲染器。 |
+| [eXzacT/RePrimitive](https://github.com/eXzacT/RePrimitive) | ⭐100 | **RePrimitive** — Blender 基础体调整插件，无需从头创建即可修改基础体参数。 |
+| [GhislainGir/GameTools](https://github.com/GhislainGir/GameTools) | ⭐137 | **GameTools** — Blender 游戏开发插件，包含专业级游戏开发技术工具集。 |
+
+---
+
+## 🌐 网络框架与库 (Networking Libraries)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [pond3r/ggpo](https://github.com/pond3r/ggpo) | ⭐3474 | **GGPO** — Good Game Peace Out 回滚网络 SDK，用于实现低延迟的 P2P 对战网络同步。 |
+
+---
+
+## 🎮 Unity 相关 (Unity Related)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [No78Vino/gameplay-ability-system-for-unity](https://github.com/No78Vino/gameplay-ability-system-for-unity) | ⭐754 | **gameplay-ability-system-for-unity** — Unity 版 Gameplay Ability System，移植自 UE 的 GAS 框架。 |
+| [Siccity/xNode](https://github.com/Siccity/xNode) | ⭐3705 | **xNode** — Unity 节点编辑器框架，在 Unity 内查看和编辑节点图。 |
+
+---
+
+## 🛠️ 通用管线与协作工具 (General Pipeline & Collaboration)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [Southpaw-TACTIC/TACTIC](https://github.com/Southpaw-TACTIC/TACTIC) | ⭐496 | **TACTIC** — 开源远程协作平台，适用于企业级工作流管理。 |
+| [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | ⭐— | **ScreenToGif** — 屏幕录制工具，可录制选定区域并保存为 GIF 或视频格式。 |
+| [Nebukam/mkfont](https://github.com/Nebukam/mkfont) | ⭐67 | **mkfont** — 免费的字体创建与导出工具，从现有资产生成字体文件。 |
+| [11cafe/jaaz](https://github.com/11cafe/jaaz) | ⭐5955 | **jaaz** — 全球首个开源多模态创意助手。 |
+
+---
+
+## 🐍 Python 工具库 (Python Libraries)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [pyapp-kit/magicgui](https://github.com/pyapp-kit/magicgui) | ⭐503 | **magicgui** — 基于类型注解自动生成 GUI 的 Python 库。 |
+| [Rockhopper-Technologies/pluginlib](https://github.com/Rockhopper-Technologies/pluginlib) | ⭐77 | **pluginlib** — Python 插件创建与导入框架。 |
+
+---
+
+## 🎯 游戏资源 (Game Assets)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [menggekkd/mengge_game_ui_icons](https://github.com/menggekkd/mengge_game_ui_icons) | ⭐29 | **mengge_game_ui_icons** — 萌歌的游戏 UI 图标资源集合。 |
+
+---
+
+## 📚 学习文档与教程 (Learning Docs & Tutorials)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [krahets/hello-algo](https://github.com/krahets/hello-algo) | ⭐123015 | **Hello 算法** — 动画图解数据结构与算法教程，面向初学者的开源项目。 |
+| [0xFA11/MultiplayerNetworkingResources](https://github.com/0xFA11/MultiplayerNetworkingResources) | ⭐8412 | **MultiplayerNetworkingResources** — 多人游戏网络编程资源精选列表。 |
+| [LandChaunax/mass-vamp-like](https://github.com/LandChaunax/mass-vamp-like) | ⭐4 | **mass-vamp-like** — 使用 Mass 框架制作类吸血鬼幸存者游戏的教程指南，支持千人级敌人。 |
+
+---
+
+## ⚙️ 游戏引擎与底层库 (Game Engines & Core Libraries)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [o3de/o3de](https://github.com/o3de/o3de) | ⭐— | **Open 3D Engine** — 开源 3D 游戏引擎（Apache 2.0 许可），支持 AAA 级游戏开发。 |
+| [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | ⭐— | **JoltPhysics** — 多核友好的刚体物理和碰撞检测库。 |
+| [skypjack/entt](https://github.com/skypjack/entt) | ⭐— | **EnTT** — 高性能 C++ ECS 游戏开发库。 |
+| [llvm/llvm-project](https://github.com/llvm/llvm-project) | ⭐— | **LLVM** — LLVM 编译器工具链项目。 |
+
+---
+
+## 🔧 通用开发工具 (General Development Tools)
+
+| 插件 | Stars | 简介 |
+|------|-------|------|
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ⭐— | **Tauri** — 使用 Web 前端构建更小、更快、更安全的桌面/移动应用程序。 |
+| [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | ⭐— | **Graphite** — 开源 2D 内容创建工具，支持基于节点的程序化编辑。 |
+| [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) | ⭐— | **spotify-downloader** — 下载 Spotify 播放列表并附带元数据信息。 |
+| [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) | ⭐— | **Shizuku** — 在 Android 上使用 adb/root 权限直接调用系统 API。 |
+| [googlehosts/hosts](https://github.com/googlehosts/hosts) | ⭐— | **googlehosts** — Google hosts 镜像，用于网络访问优化。 |
+| [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) | ⭐— | **DiscordChatExporter** — 将 Discord 聊天记录导出保存为文件。 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | ⭐— | **lobehub** — AI 代理协作平台。 |
+| [Tencent/libpag](https://github.com/Tencent/libpag) | ⭐— | **libpag** — PAG 文件的官方渲染库，由腾讯开源。 |
+| [SpecialKO/SpecialK](https://github.com/SpecialKO/SpecialK) | ⭐— | **SpecialK** — PC 游戏性能优化瑞士军刀工具。 |
+
+---
+
+> 📌 **注：** 本文整理自用户 [Lim-Young](https://github.com/Lim-Young) 在 GitHub 上的全部 13 个 Star Lists（共 532 个仓库），涵盖 Unreal Plugin、Unreal Basic Plugins、Unreal Doc、AI、Pipeline、Blender、Doc、Net、Assets、Python、Unity、Godot、Wwise 等分类。Stars 数量截至 2026 年 3 月，部分仓库 Stars 数量标记为 "—" 表示该仓库 Star 数未获取到或为大型仓库（超过 1000 Stars）。由于 GitHub 页面渲染限制，本文可能未覆盖全部仓库，但已尽力包含绝大多数收藏项目。
